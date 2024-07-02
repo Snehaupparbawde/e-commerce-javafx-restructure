@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="user_screen.UserScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="203.0" layoutY="14.0" prefHeight="57.0" prefWidth="169.0" text="  User Screen" textFill="#e204cc">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="addUser" layoutX="216.0" layoutY="100.0" mnemonicParsing="false" onAction="#adduserclickbutton" prefHeight="47.0" prefWidth="150.0" text="Add User">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitUserScreen" layoutX="219.0" layoutY="377.0" mnemonicParsing="false" onAction="#exitUserScreen" prefHeight="50.0" prefWidth="144.0" text="Exit" textFill="#710ae6">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="updateUser" layoutX="213.0" layoutY="169.0" mnemonicParsing="false" onAction="#updateUserClicked" text="Update User">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchUser" layoutX="216.0" layoutY="236.0" mnemonicParsing="false" onAction="#searchUserClicked" prefHeight="46.0" prefWidth="150.0" text="Search User">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="deleteUser" layoutX="214.0" layoutY="303.0" mnemonicParsing="false" onAction="#deleteUserClicked" text="Delete User">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="add_product.AddProductController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="103.0" layoutY="226.0" text="Product Price">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="36.0" text="Add Product" textFill="#f608b6">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="109.0" text="Product Name">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="168.0" text="Product Quantity">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="addProductErrorMessage" layoutX="252.0" layoutY="356.0" prefHeight="17.0" prefWidth="171.0" />
+      <TextField fx:id="pname" layoutX="302.0" layoutY="112.0" prefHeight="25.0" prefWidth="203.0" />
+      <TextField fx:id="pquantity" layoutX="302.0" layoutY="171.0" prefHeight="25.0" prefWidth="203.0" />
+      <TextField fx:id="pprice" layoutX="302.0" layoutY="229.0" prefHeight="25.0" prefWidth="203.0" />
+      <Button layoutX="109.0" layoutY="306.0" mnemonicParsing="false" onAction="#backButton" prefHeight="52.0" prefWidth="117.0" text="Back" textFill="#0d5bf8">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="submitAddProduct" layoutX="338.0" layoutY="294.0" mnemonicParsing="false" onAction="#addProductClicked" prefHeight="52.0" prefWidth="149.0" text="Submit" textFill="#5f0ff4">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

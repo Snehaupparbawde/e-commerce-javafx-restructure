@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:controller="update_user.UpdateUserController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="245.0" layoutY="23.0" prefHeight="30.0" prefWidth="130.0" text="Update User" textFill="#fd0ae9">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="83.0" text="Enter User Name to Update">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="updateName" layoutX="319.0" layoutY="84.0" prefHeight="25.0" prefWidth="210.0" />
+      <Button layoutX="245.0" layoutY="130.0" mnemonicParsing="false" onAction="#submitUserClicked" text="Submit" textFill="#a808f2">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="92.0" layoutY="281.0" text="Gender">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="235.0" text="Last Name">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="414.0" text="Password">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="371.0" text="Email">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="323.0" text="Age">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="181.0" text="First Name">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fname" layoutX="225.0" layoutY="181.0" prefHeight="25.0" prefWidth="283.0" />
+      <TextField fx:id="age" layoutX="235.0" layoutY="323.0" prefHeight="25.0" prefWidth="283.0" />
+      <TextField fx:id="email" layoutX="235.0" layoutY="371.0" prefHeight="25.0" prefWidth="283.0" />
+      <TextField fx:id="paswword" layoutX="235.0" layoutY="414.0" prefHeight="25.0" prefWidth="283.0" />
+      <TextField fx:id="gender" layoutX="235.0" layoutY="281.0" prefHeight="25.0" prefWidth="283.0" />
+      <TextField fx:id="lname" layoutX="235.0" layoutY="235.0" prefHeight="25.0" prefWidth="283.0" />
+      <Button layoutX="363.0" layoutY="475.0" mnemonicParsing="false" onAction="#updateUserClicked" text="Update User" textFill="#a808f2">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="490.0" mnemonicParsing="false" onAction="#backButton" prefHeight="38.0" prefWidth="98.0" text="Back" textFill="#a808f2">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="errorMessage1" layoutX="268.0" layoutY="513.0" prefHeight="30.0" prefWidth="130.0" />
+      <Label layoutX="84.0" layoutY="449.0" text="Repassword">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="rePassword" layoutX="235.0" layoutY="449.0" prefHeight="25.0" prefWidth="283.0" />
+      <Label fx:id="errorMessage" layoutX="375.0" layoutY="138.0" prefHeight="30.0" prefWidth="130.0" />
+   </children>
+</AnchorPane>

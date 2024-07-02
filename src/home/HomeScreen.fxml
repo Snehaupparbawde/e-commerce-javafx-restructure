@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:controller="home.HomeScreenController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="193.0" layoutY="33.0" prefHeight="67.0" prefWidth="175.0" text=" Home Screen" textFill="#e909ed">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Button fx:id="addUser" layoutX="182.0" layoutY="136.0" mnemonicParsing="false" onAction="#addUserButtonClicked" prefHeight="47.0" prefWidth="229.0" text="User Screen">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="204.0" layoutY="317.0" mnemonicParsing="false" onAction="#exitHomeScreenClicked" prefHeight="54.0" prefWidth="191.0" text="Logout" textFill="#0779eb">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="addProduct" layoutX="176.0" layoutY="219.0" mnemonicParsing="false" onAction="#addProductClicked" prefHeight="47.0" prefWidth="239.0" text="Product Screen">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
